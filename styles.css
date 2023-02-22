@@ -1,0 +1,194 @@
+body
+{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+h1
+{
+   color: #66BFBF; 
+   /* text-decoration: underline black; */
+   font-family: 'Sacramento', cursive;
+   margin: 50px auto 0 auto 0;
+   font-size: 5.625rem;
+   /* line-height: 2; */
+    
+}
+h1:hover
+{
+    color: deeppink;
+}
+h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+    padding-bottom: 10px;
+
+  
+}
+hr
+{
+border-color: #EAF6F6;
+border-style: dotted;
+border-width: 7px 0px 0px 0px;
+width: 7%;
+}
+
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+     padding-top: 30px;  
+}
+p
+{
+    font-family: 'Montserrat', sans-serif;
+     /* font-family: 'Satisfy', cursive;  */
+     color: #40514E;
+     line-height: 2;
+}
+.intro
+{
+    width: 30%;
+    margin: auto;
+}
+.c-msg
+{
+    width: 30%;
+    margin: 40px auto 30px;
+}
+
+.top-container
+{
+    background-color: #CDF0EA;
+    padding-top: 100px;
+    position: relative
+    /* margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px; */
+}
+
+
+h1
+{
+    /* margin-top: 0px; */
+    /* margin-left: 0px;
+    margin-right: 0px; */ 
+}
+
+.middle-container
+{
+    margin:100px 0 ;
+}
+.bottom-container
+{
+background-color: #66BFBF;
+padding: 40px 0px 20px 0px;
+/* margin: 0;  */
+}
+
+a
+{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin:10px 20px;
+    text-decoration: none;
+
+
+    
+}
+a:hover
+{
+    color: white;
+}
+.top-cloud
+{
+    position:absolute;
+    margin: auto;
+    right: 300px;
+    top:60px;
+
+}
+.bottom-cloud
+{
+    position: absolute;
+    left: 300px;
+    /* bottom: 300px; */
+
+}
+.dp
+{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+}
+.comp
+{
+    border-radius: ;      /*   use for making image circular */
+    /* width: 150px; 
+    height: 150px;   */
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+ 
+}
+.camera
+{
+
+    /* border-radius:; */
+    /* width: 280px;
+    height: 280px; */
+    width: 25%;
+    float:right;
+    margin-left: 30px; 
+   
+}
+.skill-row
+{
+    width: 50%;
+    margin: 100px auto 100px auto;              /* it keep the div in center by keeping width 50% */
+    text-align: left;
+   
+}
+.copy
+{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+
+}
+.contact-me
+{
+/* padding-top: 40px; */
+}
+.skills
+{
+    padding-top: 60px; 
+}
+
+/* Button */
+.btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #66BFBF;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
